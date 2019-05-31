@@ -1,0 +1,22 @@
+{
+  "name": "clarifai-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clarifai": "^2.9.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.1",
+    "pug": "^2.0.3"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+}
+
+

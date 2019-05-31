@@ -1,0 +1,21 @@
+html
+  head
+    link(href="/css/style.css", rel="stylesheet")
+    link(rel="stylesheet", type="text/css", href="//fonts.googleapis.com/css?family=Open+Sans" )
+  body
+    img(src="data:image/png;base64," + image)
+    each concept in concepts
+     - var value = concept.value;
+     if(value > 0.94 && value <= 1)
+      //p #{concept.name}: #{concept.value}
+      p You've unlocked Llamecorn rewards! Thanks for playing. 
+      a(class='button to-rewards' href='https://ascena.invisionapp.com/share/F7S9L0DGNUW#/screens/366282757') Go to your rewards!
+      a(class='button home' href='/') Go Back
+
+     else if(value <= 0.94 || value > 1)
+      p Image is not a match. Please try again. 
+      a(class='button home' href='/') Go Back
+     else 
+      p Image did not register. Please try again. 
+      a(class='button home' href='/') Go Back
+
