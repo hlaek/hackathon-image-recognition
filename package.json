@@ -12,7 +12,7 @@
     "clarifai": "^2.9.0",
     "express": "^4.17.1",
     "multer": "^1.4.1",
-    "pug": "^2.0.3"
+    "pug": "^3.0.1"
   },
   "engines": {
     "node": "10.x"
